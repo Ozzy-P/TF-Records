@@ -4,7 +4,7 @@ use std::{env};
 use crate::analyze::{analyze_and_store, MatchData};
 
 pub mod analyze;
-#[async_std::main]
+#[tokio::main]
 async fn main() -> Result<(), sqlx::Error> {
 
     let file_path = std::env::args().nth(1).expect("Please provide a demo directory as an arg");
@@ -23,7 +23,7 @@ async fn main() -> Result<(), sqlx::Error> {
             let file_content = std::fs::read_to_string(&path).expect("Failed to read the JSON file");
             let match_data: MatchData = serde_json::from_str(&file_content).expect("Failed to deserialize JSON into MatchData struct");
             println!("Parsed MatchData: {}", match_data.header.map);
-            let result_type = analyze_and_store(&conn_pool, path.to_string_lossy().to_string(), match_data).await;
+            let result_type = analyze_and_store(conn_pool.clone(), path.to_string_lossy().to_string(), match_data).await;
             match result_type {
                 Ok(_) => println!("Successfully analyzed and stored data for file: {}", path.display()),
                 Err(e) => eprintln!("Error analyzing and storing data for file {}: {}", path
