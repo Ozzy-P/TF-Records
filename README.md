@@ -6,3 +6,6 @@ It's obviously a list? Still roughly missing about 33% of the other entries give
 
 # But what if I want the raw data?
 8GB, and counting, of raw data, sure.
+
+# And what about those random files?
+Rebuilt and then some more. Was it worth making it parse and upload 50k entries from Rust to SQL in 7 seconds? NO.
