@@ -9,3 +9,6 @@ It's obviously a list? Missing a rough amount of entries (~15%) plus cross refer
 
 # And what about those random files?
 Rebuilt and then some more. Was it worth making it parse and upload 66k+ entries from Rust to SQL in ~4 seconds? Maybe but no.
+
+# At least, # of matches?
+You'd think there's close to 1,000 matches with this many ids. Nope. Just dustbowl, bowling until the end of the match. Either pubstomps or getting stomped.
