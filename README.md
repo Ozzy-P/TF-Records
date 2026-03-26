@@ -2,7 +2,7 @@
 Ever wanted a list of aliases but that pesky thing called "clear all" been in your way? Well, this doesn't solve it.
 
 # Why, what?
-It's obviously a list? Missing chat logs and other miscellaneous entries, but you're not missing out on much (ergo INCOMPLETE for now).
+It's obviously a list? Look through it, make the mistake of looking at it, whatever. You do you.
 
 # But what if I want the raw data?
 8GB, and counting, of raw data, sure. Only if I find a suitable place for it.
