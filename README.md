@@ -1,5 +1,5 @@
 # ARCHIVED - BgkPR
-This repository has been archived for posterity. All future updates to TFRecords will now be in BgkPR's copy of this repository. See [here](https://github.com/BgkPR/TFRecords)
+This repository has been archived for posterity. All future updates to TFRecords will now be in BgkPR's copy of this repository. Alternatively, they will be stored in ./BgkPR and relevant files will still update here first. See [here](https://github.com/BgkPR/TFRecords)
 
 # TF-Records
 Ever wanted a list of aliases but that pesky thing called "clear all" been in your way? Well, this doesn't solve it.
