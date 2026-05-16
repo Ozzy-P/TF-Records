@@ -5,13 +5,13 @@ This repository has been archived for posterity. All future updates to TFRecords
 Ever wanted a list of aliases but that pesky thing called "clear all" been in your way? Well, this doesn't solve it.
 
 # Why, what?
-It's obviously a list? Look through it, make the mistake of looking at it, whatever. You do you.
+It's obviously a list? Look through it, make the mistake of looking at it, whatever! You do you.
 
 # But what if I want the raw data?
-8GB, and counting, of raw data, sure. Only if I find a suitable place for it.
+20GB, and counting, of raw data, sure. Only if I find a suitable place for it.
 
 # And what about those random files?
-Rebuilt and then some more. Obviously not usable, templates as is, especially in regards to security. Want to get an SQL injection, go ahead. Was it worth making it parse and upload 125k+ entries from Rust to SQL in ~4 seconds? Maybe but no.
+Rebuilt and then some more. Obviously not usable, templates as is, especially in regards to security. Want to get an SQL injection, go ahead. Was it worth making it parse and upload 75k+ entries (350k+ aggregate) from Rust to SQL in ~3.5 seconds? Maybe but no.
 
 # At least, # of matches?
-You'd think there's close to 1,000 matches. Nope. Just dustbowl, bowling until the end of the match. Either pubstomps or getting stomped. "Balanced matches?" a myth propogated by the enigmata.
+You'd think there's close to 1,000 matches. No, but "We're very close." Just dustbowl, bowling until the end of the match in spawn. "Balanced matches?" a myth propogated by the enigmata.
